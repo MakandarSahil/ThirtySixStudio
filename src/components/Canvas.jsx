@@ -39,6 +39,8 @@ function Canvas({ details }) {
 
   return (
     <canvas
+      data-scroll
+      data-scroll-speed={Math.random().toFixed(1)}
       className="absolute"
       style={{
         width: `${size * 1.4}px`,
